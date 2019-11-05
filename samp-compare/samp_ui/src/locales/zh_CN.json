@@ -1,0 +1,259 @@
+{
+    "samp": {
+        "index": {
+            "logout": "退出"
+        },
+        "button": {
+            "create": "创建",
+            "apply": "应用",
+            "cancel": "取消"
+        },
+        "dashboard": {
+            "title": "数据面板",
+            "authenticationRequests": "认证请求",
+            "deviceCategory": "设备类别",
+            "connectedDevice": "连接设备",
+            "deviceFamily": "设备家族",
+            "guest": "访客",
+            "byod": "员工",
+            "employee": "员工",
+            "unknown": "未知",
+            "success": "成功",
+            "failure": "失败"
+        },
+        "policyEngine": {
+            "title": "策略中心",
+            "nasClients": {
+                "title": "NAS客户端",
+                "listTitle": "NAS客户端注册列表",
+                "create": "创建Nas客户端",
+                "edit": "编辑Nas客户端",
+                "detail":"NAS客户端详情",
+                "item": {
+                    "nasName": "NAS名字",
+                    "startNASIp": "起始IP地址",
+                    "endNASIp": "结束IP地址",
+                    "shareSecurity": "共享秘钥",
+                    "description": "描述",
+                    "dm_attributes": "DM属性",
+                    "coa_attributes": "COA属性"
+                },
+                "msg": {
+                    "required": "该字段是必须的.",
+                    "ipAddress": "IP地址不合法.",
+                    "largeIpAddress": "起始NAS IP必须小于结束NAS IP.",
+                    "nasNameLength": "该NAS名称必须为6-64个字符.",
+                    "passwordLength": "该共享秘钥必须为6-128个字符.",
+                    "descriptionLength": "该描述0-255个字符."
+                },
+                "resultTable": {
+                    "header": {
+                        "shareSecurity": "共享安全",
+                        "displayName": "NAS名称",
+                        "description": "描述",
+                        "message": "消息",
+                        "nasIp": "NAS IP",
+                        "operation": "操作",
+                        "nasMac": "NAS MAC或名称",
+                        "status": "状态",
+                        "timestamp": "时间戳"
+                    }
+                }
+            },
+            "authenticationStrategy": {
+                "title": "验证策略",
+                "listTitle": "验证策略列表",
+                "create": "创建验证策略",
+                "edit": "编辑验证策略",
+                "detail":"验证策略详情",
+                "item": {
+                    "condition": "映射条件",
+                    "policyName": "策略名称",
+                    "authenticationStrategy": "验证策略",
+                    "attribute": "属性",
+                    "priority": "优先级",
+                    "value": "值",
+                    "operator": "运算符",
+                    "accountInterimIntervalEnabled": "帐户中间间隔状态",
+                    "overwriteARP": "记住新强制执行策略",
+                    "strategyName": "策略名称",
+                    "defaultARPName": "默认访问角色配置文件",
+                    "reloadARP": "新强制执行策略",
+                    "guestStrategy": "来宾接入策略",
+                    "tooltip": "如果是802.1X，请选择无或验证成功",
+                    "authenticationAgainst": "验证源",
+                    "accountInterimInterval": "中间计费间隔",
+                    "downstreamBandwidth": "下行带宽",
+                    "employeeStrategy": "BYOD接入策略",
+                    "defaultPLName": "默认策略列表",
+                    "webRedirectionEnforcementPolicyTile": "WEB重定向执行策略",
+                    "sessionTimeoutInterval": "会话超时间隔",
+                    "sessionTimeoutEnabled": "会话超时已启用",
+                    "upstreamBandwidth": "上行带宽",
+                    "locationPolicy": "位置策略",
+                    "networkEnforcementPolicy": "网络强制执行策略",
+                    "enableRoleMapping": "启用角色映射",
+                    "sessionTimeout": "会话超时状态",
+                    "webAuthentication": "Web验证",
+                    "allowedEAPMethod": "验证方法",
+                    "captivePortalAuthentication": "强制门户验证",
+                    "arubaUserRole": "Aruba用户角色",
+                    "otherAttribute": "其他属性",
+                    "externalRadius": "外部Radius",
+                    "authenticationAgainstNone": "无",
+                    "authenticationAgainstLdb": "本地数据库",
+                    "authenticationAgainstLdap": "外部LDAP/AD",
+                    "authenticationAgainstExternal": "外部Radius",
+                    "webAuthenticationNone": "无",
+                    "webAuthenticationGuest": "访客",
+                    "webAuthenticationEmployee": "员工",
+                    "webAuthenticationBoth": "访客和员工"
+                }
+            },
+            "roleMappingLdap": {
+                "title": "LDAP/AD的角色映射"
+            },
+            "byodAccessStrategy": {
+                "title": "BYOD接入策略"
+            },
+            "guestAccessStrategy": {
+                "title": "访客接入策略"
+            },
+            "ldapAttribute": {
+                "title": "LDAP属性"
+            },
+            "ldapConfiguration": {
+                "title": "LDAP/AD配置"
+            },
+            "radiusDictionary": {
+                "title": "Radius属性目录"
+            },
+            "externalRadius": {
+                "title": "外部Radius"
+            },
+            "authenticaitonRecord": {
+                "title": "认证记录"
+            },
+            "captivePortalAccessRecord": {
+                "title": "强制门户访问记录"
+            }
+        },
+        "assetManagement": {
+            "title": "资产管理",
+            "companyProperty": {
+                "title": "公司资产"
+            }
+        },
+        "byodManagement": {
+            "title": "BYOD管理",
+            "byodGlobalConfiguration": {
+                "title": "BYOD全局配置"
+            }
+        },
+        "certificateManagement": {
+            "title": "证书管理",
+            "certificateIssuanceTools": {
+                "title": "证书工具"
+            },
+            "freeRadiusCertificate": {
+                "title": "Free Radius证书"
+            },
+            "ldapsCertificate": {
+                "title": "LDAPS证书"
+            },
+            "portalServerCertificate": {
+                "title": "强制门户证书"
+            },
+            "tomcatCertificate": {
+                "title": "Tomcat证书"
+            }
+        },
+        "deviceManagement": {
+            "title": "设备管理",
+            "onlineDevice": {
+                "title": "在线设备"
+            },
+            "offlineDevice": {
+                "title": "离线设备"
+            },
+            "rememberedDevice": {
+                "title": "记录设备"
+            }
+        },
+        "guestManagement": {
+            "title": "访客管理",
+            "guestAccount": {
+                "title": "访客账户"
+            },
+            "guestGloablConfiguration": {
+                "title": "访客全局配置"
+            },
+            "guestOperator": {
+                "title": "访客管理员"
+            },
+            "selfRegistrationRequest": {
+                "title": "自注册请求"
+            }
+        },
+        "licenseManagement": {
+            "title": "证书管理"
+        },
+        "logServer": {
+            "title": "日志服务",
+            "logServer": {
+                "title": "日志服务"
+            },
+            "externalLogServer": {
+                "title": "外部日志服务"
+            }
+        },
+        "portalManagement": {
+            "title": "门户管理",
+            "captivePortalPage": {
+                "title": "强制门户页面"
+            }
+        },
+        "reports": {
+            "title": "报表",
+            "auditReport": {
+                "title": "审计报表"
+            },
+            "systemReport": {
+                "title": "系统报表"
+            },
+            "tenantReport": {
+                "title": "租户报表"
+            }
+        },
+        "schedule": {
+            "title": "定时任务",
+            "scheduleJobs": {
+                "title": "定时任务"
+            },
+            "scheduleHistory": {
+                "title": "任务历史"
+            }
+        },
+        "setting": {
+            "title": "设置",
+            "emailServer": {
+                "title": "电子邮件服务"
+            },
+            "tenantAdmin": {
+                "title": "租户管理员"
+            }
+        },
+        "userCenter": {
+            "title": "用户中心",
+            "userRole": {
+                "title": "角色管理"
+            },
+            "organizationStructure": {
+                "title": "组织结构"
+            },
+            "employeeAccount": {
+                "title": "员工账户"
+            }
+        }
+    }
+}

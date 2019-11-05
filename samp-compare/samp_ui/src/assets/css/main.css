@@ -1,0 +1,447 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/**
+重新定义antd样式
+**/
+.ant-form-explain{
+  text-align: left
+}
+
+/**
+结束定义antd样式
+**/
+/**
+登录页面的css样式
+**/
+.login_layout{
+  width: 100%;
+  height: 1350px;
+  background-image: url('../images/background.jpg')
+}
+.login_layout_header{
+  background: #3680C1;
+  vertical-align: middle;
+  height: 60px;
+}
+.login_layout_header_logo_div{
+  padding-left: 30px;
+  padding-right: 15px;
+  height: 60px;
+  float: left;
+}
+.login_layout_header_logo{
+  margin-left: 0; 
+  margin-top: 10px;
+}
+.login_layout_header_company{
+  color: white;
+  padding-right: 15px;
+  height: 60px;
+  float: left;
+  line-height: 60px;
+}
+.login_layout_header_language{
+  float: right;line-height: 60px;
+  height: 60px;
+  padding-right: 40px;
+}
+.login_layout_body{
+  height: 80%;
+  width: 100%;
+}
+.login_layout_body_from_div{
+  width: 99%;
+  height: 90%;
+  text-align: center;
+  vertical-align: middle;
+}
+.login_layout_footer{
+  width: 100%;
+  height: 60px; 
+  text-align: center;
+}
+/* .login .login_form{
+  width: 99%;
+  height: 100%;
+  text-align:center;
+  vertical-align:middle; 
+  display: flex;
+  align-items: center;
+} */
+.login_layout_body_from{
+  width: 450px;
+  height:300px;
+  border:1px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:auto;
+  margin-top:200px; 
+  text-align: center;
+  background-color:#fff;
+  border-radius: 5px;
+  opacity: .8;
+}
+/**
+登录功能样式
+*/
+.login_welcome_info{
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size:20px;
+  font-weight: 700;
+}
+.login-form {
+  width: 90%;
+  margin: 0 auto;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+/***主页面css*/
+.lamp_index{
+  width: 100%; 
+  height: auto;
+}
+.lamp_index_header{
+  vertical-align: middle; 
+  height: 60px;
+  background: #fff;
+}
+.lamp_logo_div{
+  display: inline;
+  padding-right: 15px;
+}
+.lamp-index-header-right li{
+  float: left;
+  list-style: none;
+  margin-left: 15px;
+ 
+}
+.samp-index-header-icon-size{
+  font-size: 20px;
+}
+.samp-index-header-logout{
+  cursor: pointer;
+}
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  color:white;
+  line-height: 60px;
+  background: url("../images/company_logo.png") no-repeat;
+}
+.lamp-index-header-right{
+  float: right;
+  vertical-align: middle;
+  line-Height: 60px 
+}
+
+.lamp-index-header-right-div{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline;
+  line-height: 60px;
+}
+.lamp-index-content{
+  margin: 24px 16px;
+  padding: 24;
+  background: #fff;
+  min-height: 1100px;
+  height: auto;
+}
+.lamp-index-content-div{
+  width: 99%;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 10px; 
+  min-height: 1100px;
+}
+.lamp-index-footer{
+  text-align: center;
+}
+/***/
+form{
+  font-family: ClanWebPro;
+  font-size: 14px ;
+  font-weight: bold;  
+}
+
+form input{
+  height:40px;
+}
+form row{
+  margin-top: 10px
+}
+.ant-modal-content{
+  min-width:520px;
+  margin: 0 auto;
+}
+.ant-form-item{
+  margin-bottom: 5px;
+}
+.lamp-table-list-header{
+  font-weight: 700;
+  font-family: ClanWebPro;
+  font-style: normal;
+}
+
+/** steps*/
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 6px;
+  background-color: #fafafa;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 10px;
+}
+.steps-action {
+  margin-top: 24px;
+}
+
+/** card*/
+.ant-card-body{
+  height: 200px;
+}
+.lamp-workflow-card{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.lamp-workflow-card div{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.lamp-workflow-card div img{
+  width: 200px;
+  height: 200px;
+  margin-top:10px;
+}
+#lapm_workflow_mapping .ant-modal-header{
+  width:1000px !important
+}
+#lapm_workflow_mapping .ant-modal-body{
+  width:1000px !important
+}
+#lapm_workflow_mapping .ant-modal-footer{
+  width:1000px !important
+}
+/**user role css**/
+.lamp_user_role_line{
+  height:40px;
+  
+}
+.lamp_user_role_line:hover{
+  background-color: #EEEEEE;
+}
+.samp_cancel_button_style{
+  margin-right:"10px";
+  background-color:"#6c757d";
+  border-color:"#6c757d"
+}
+
+/**form 表单的样式定义**/
+.samp_panle_form{
+  width: 100%; height: auto; border: 1px solid #ddd;border-radius:5px;margin-bottom: 20px
+}
+.samp_panel_form_header{
+  width: 100%; 
+  background-color:#f5f5f5; 
+  line-height: 40px; 
+  font-size: 20px; 
+  font-weight: 700; 
+  border-bottom:1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+.samp_panel_form_body{
+  width: 100%; 
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.samp_panel_from_footer{
+  width: 100%;
+  height: 50px; 
+  background-color:#f5f5f5;  
+  font-size: 20px; 
+  font-weight: 700; 
+  border-top:1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.samp_panel_from_footer_button{
+  float: right;
+  line-height: 50px;
+}
+.samp_panel_from_footer_button_save{
+  margin-left: 10px;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.samp_panel_from_footer_button_cancle{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/**
+详情页面样式Drawer
+**/
+.samp_detail_drawer_style{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e9e9e9;
+  padding: 10px 16px;
+  background: #fff;
+  text-align: right;
+}
+/**
+折叠面板的自定义样式
+**/
+.samp_collapse_style{
+  width: 99%;
+  margin-left: .5%;
+  margin-Bottom: 10px; 
+}
+.samp_collapse_panel_header{
+  background-color: #5f5f5f;
+  color: #faf9f9;
+  text-align: left;
+}
+.samp_detail_collapse_header{
+  background-color: #5f5f5f;
+}
+.samp_detail_collapse_header_white{
+  text-align: left;
+  background-color: white;
+  color: white;
+}
+/* .ant-collapse-header{
+  color:#fff !important
+} */
+/**
+详情页面label居右
+**/
+.samp_detail_label{
+  text-align: right;
+}
+/**
+详情页面field居左，并偏移10px
+**/
+.samp_detail_field{
+  text-align: left;
+}
+/**
+详情页面行距
+**/
+.samp_detail_row_line{
+  margin-top: 10px;
+}
+/***
+tags div样式
+**/
+.samp_tags_div_conditions{
+  width: 32%;
+  height: 32px;
+  border: 1px solid #d9d9d9;
+  line-height: 32px;
+}
+.samp_tags_div{
+  width: 100%;
+  height: 32px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  line-height: 32px;
+}
+/**
+重新定义table分页的样式
+**/
+.ant-pagination-total-text{
+  float: left !important;
+}
+/**
+日志文件样式
+**/
+.smap_log_server_detail_name{
+  font-size: 20px;
+}
+.smap_log_server_detail_refresh{
+  float: right;
+}
+.smap_log_server_detail_codemirror{
+  border: 1px solid #ddd;
+}
