@@ -1,0 +1,267 @@
+{
+    "samp": {
+        "index": {
+            "logout": "Logout"
+        },
+        "button": {
+            "create": "Create",
+            "apply": "Apply",
+            "cancel": "Cancel"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "authenticationRequests": "Authentication Requests",
+            "deviceCategory": "Device Category",
+            "connectedDevice": "Connected Device",
+            "deviceFamily": "Device Family",
+            "guest": "Guest",
+            "byod": "BYOD",
+            "employee": "Employee",
+            "unknown": "Unknown",
+            "success": "Success",
+            "failure": "Failure"
+        },
+        "policyEngine": {
+            "title": "Policy Engine",
+            "nasClients": {
+                "title": "Nas Clients",
+                "listTitle": "Nas Clients List",
+                "create": "Create Nas Clients",
+                "edit": "Edit Nas Clients",
+                "detail":"NAS Clients Detail",
+                "item": {
+                    "nasName": "NAS Name",
+                    "startNASIp": "Start NAS IP",
+                    "endNASIp": "End NAS IP",
+                    "description": "Description",
+                    "shareSecurity": "Share Security",
+                    "dm_attributes": "DM-Attributes",
+                    "coa_attributes": "COA-Attributes"
+                },
+                "msg": {
+                    "required": "The filed is required.",
+                    "ipAddress": "IP address is invalid.",
+                    "largeIpAddress": "Nas End Ip must be larger than Nas Start Ip.",
+                    "nasNameLength": "This NAS name must be in 6-64 characters.",
+                    "passwordLength": "This NAS name must be in 6-128 characters.",
+                    "descriptionLength": "This description must be in 0-255 characters."
+                },
+                "resultTable": {
+                    "header": {
+                        "shareSecurity": "Shared Security",
+                        "displayName": "NAS Name",
+                        "description": "Description",
+                        "message": "Message",
+                        "nasIp": "NAS IP",
+                        "operation": "Operation",
+                        "nasMac": "NAS MAC or Name",
+                        "status": "Status",
+                        "timestamp": "Timestamp"
+                    }
+                }
+            },
+            "authenticationStrategy": {
+                "title": "Authentication Strategy",
+                "listTitle": "Authentication Strategy List",
+                "create": "Create Authentication Strategy",
+                "edit": "Edit Authentication Strategy",
+                "detail":"Authentication Strategy Detail",
+                "item": {
+                    "condition": "Mapping Condition",
+                    "policyName": "Policy Name",
+                    "attribute": "Attribute",
+                    "priority": "Priority",
+                    "value": "Value",
+                    "operator": "Operator",
+                    "accountInterimIntervalEnabled": "Account Interim-Interval Status",
+                    "overwriteARP": "Remember New Enforcement Policy",
+                    "strategyName": "Strategy Name",
+                    "defaultARPName": "Default Access Role Profile",
+                    "reloadARP": "New Enforcement Policy",
+                    "guestStrategy": "Guest Access Strategy",
+                    "tooltip": "if 802.1X, select none or authenticator success",
+                    "authenticationAgainst": "Authentication Source",
+                    "accountInterimInterval": "Accounting Interim Interval",
+                    "downstreamBandwidth": "Downstream Bandwidth",
+                    "employeeStrategy": "BYOD Access Strategy",
+                    "defaultPLName": "Default Policy List",
+                    "webRedirectionEnforcementPolicyTile": "WEB Redirection Enforcement Policy",
+                    "sessionTimeoutInterval": "Session Timeout Interval",
+                    "sessionTimeoutEnabled": "Session Timeout Enabled",
+                    "upstreamBandwidth": "Upstream Bandwidth",
+                    "locationPolicy": "Location Policy",
+                    "networkEnforcementPolicy": "Network Enforcement Policy",
+                    "enableRoleMapping": "Enable Role Mapping",
+                    "sessionTimeout": "Session Timeout Status",
+                    "webAuthentication": "Web Authentication",
+                    "allowedEAPMethod": "Authentication Method",
+                    "captivePortalAuthentication": "Captive Portal Authentication",
+                    "arubaUserRole": "Aruba User Role",
+                    "otherAttribute": "Other Attributes",
+                    "externalRadius": "External Radius",
+                    "authenticationAgainstNone": "None",
+                    "authenticationAgainstLdb": "Local Database",
+                    "authenticationAgainstLdap": "External LDAP/AD",
+                    "authenticationAgainstExternal": "External Radius",
+                    "webAuthenticationNone": "None",
+                    "webAuthenticationGuest": "Guest",
+                    "webAuthenticationEmployee": "Employee",
+                    "webAuthenticationBoth": "Guest and Employee"
+                },
+                "msg":{
+                    "required": "The filed is required.",
+                    "policyNameLength":"This policy name must be in 1-128 characters.",
+                    "priorityLength":"This priority must be in 1-10.",
+                    "strategyNameLength":"This Strategy Name must be in 1-128 characters."
+                }
+            },
+            "roleMappingLdap": {
+                "title": "Role Mapping For LDAP/AD"
+            },
+            "byodAccessStrategy": {
+                "title": "BYOD Access Strategy"
+            },
+            "guestAccessStrategy": {
+                "title": "Guest Access Strategy"
+            },
+            "ldapAttribute": {
+                "title": "LDAP Attribute"
+            },
+            "ldapConfiguration": {
+                "title": "LDAP/AD Configuration"
+            },
+            "radiusDictionary": {
+                "title": "Radius Dictionary"
+            },
+            "externalRadius": {
+                "title": "External Radius"
+            },
+            "authenticaitonRecord": {
+                "title": "Authentication Record"
+            },
+            "captivePortalAccessRecord": {
+                "title": "Captive Portal Access Record"
+            }
+        },
+        "assetManagement": {
+            "title": "Asset Management",
+            "companyProperty": {
+                "title": "Company Property"
+            }
+        },
+        "byodManagement": {
+            "title": "BYOD Management",
+            "byodGlobalConfiguration": {
+                "title": "BYOD Global Configuration"
+            }
+        },
+        "certificateManagement": {
+            "title": "Certificate Management",
+            "certificateIssuanceTools": {
+                "title": "Certificate Issuance Tools"
+            },
+            "freeRadiusCertificate": {
+                "title": "Free Radius Certificate"
+            },
+            "ldapsCertificate": {
+                "title": "LDAPS Certificate"
+            },
+            "portalServerCertificate": {
+                "title": "Portal Server Certificate"
+            },
+            "tomcatCertificate": {
+                "title": "Tomcat Certificate"
+            }
+        },
+        "deviceManagement": {
+            "title": "Device Management",
+            "onlineDevice": {
+                "title": "Online Device"
+            },
+            "offlineDevice": {
+                "title": "Offline Device"
+            },
+            "rememberedDevice": {
+                "title": "Remembered Device"
+            }
+        },
+        "guestManagement": {
+            "title": "Guest Management",
+            "guestAccount": {
+                "title": "Guest Account"
+            },
+            "guestGloablConfiguration": {
+                "title": "Guest Global Configuration"
+            },
+            "guestOperator": {
+                "title": "Guest Operator"
+            },
+            "selfRegistrationRequest": {
+                "title": "Self-Registration Request"
+            }
+        },
+        "licenseManagement": {
+            "title": "License Management",
+            "licenseManagement": {
+                "title": "License Management"
+            }
+        },
+        "logServer": {
+            "title": "Log Server",
+            "logServer": {
+                "title": "Log Server"
+            },
+            "externalLogServer": {
+                "title": "External Log Server"
+            }
+        },
+        "portalManagement": {
+            "title": "Portal Management",
+            "captivePortalPage": {
+                "title": "Captive Portal Page"
+            }
+        },
+        "reports": {
+            "title": "Reports",
+            "auditReport": {
+                "title": "Audit Report"
+            },
+            "systemReport": {
+                "title": "System Report"
+            },
+            "tenantReport": {
+                "title": "Tenant Report"
+            }
+        },
+        "schedule": {
+            "title": "Schedule",
+            "scheduleJobs": {
+                "title": "Schedule Jobs"
+            },
+            "scheduleHistory": {
+                "title": "Schedule History"
+            }
+        },
+        "setting": {
+            "title": "Setting",
+            "emailServer": {
+                "title": "Email Server"
+            },
+            "tenantAdmin": {
+                "title": "Tenant Admin"
+            }
+        },
+        "userCenter": {
+            "title": "User Center",
+            "userRole": {
+                "title": "User Role"
+            },
+            "organizationStructure": {
+                "title": "Organization Structure"
+            },
+            "employeeAccount": {
+                "title": "Employee Account"
+            }
+        }
+    }
+}
